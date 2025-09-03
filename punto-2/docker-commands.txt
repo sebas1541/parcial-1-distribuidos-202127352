@@ -1,0 +1,8 @@
+docker volume create pgdata  
+docker run -d --name postgres-test -e POSTGRES_PASSWORD=postgres -p 5432:5432 -v pgdata:/var/lib/postgresql/data postgres:16-alpine
+docker exec postgres-test psql -U postgres -c "CREATE TABLE parcial (id SERIAL PRIMARY KEY, name VARCHAR(50));"
+docker exec postgres-test psql -U postgres -c "INSERT INTO parcial (name) VALUES ('5.0'), ('4.2');"  
+docker exec postgres-test psql -U postgres -c "SELECT * FROM parcial;"
+docker restart postgres-test && sleep 5 
+docker exec postgres-test psql -U postgres -c "SELECT * FROM parcial;" && docker stop postgres-test 
+docker rm postgres-test
