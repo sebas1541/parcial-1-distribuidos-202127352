@@ -2,132 +2,115 @@
 **Estudiante:** Sebastian Canon Castellanos  
 **Código:** 202127352  
 
-## Descripción del Proyecto
-<!-- Descripción breve del proyecto y objetivos del parcial -->
+>
 
-## Arquitectura
-<!-- Diagrama y descripción de la arquitectura del sistema distribuido -->
-
-### Componentes
-- **Cliente:** 
-- **Servidor:** 
-- **Base de Datos:** 
-- **Otros componentes:** 
-
-### Patrones de Diseño Utilizados
-- [ ] Cliente-Servidor
-- [ ] Peer-to-Peer
-- [ ] Microservicios
-- [ ] Publisher-Subscriber
-- [ ] Request-Response
-- [ ] Otros: 
-
-## Tecnologías Utilizadas
-- **Lenguaje de Programación:** 
-- **Framework/Librerías:** 
-- **Base de Datos:** 
-- **Comunicación:** (REST API, gRPC, WebSockets, etc.)
-- **Containerización:** (Docker, si aplica)
-- **Otros:** 
 
 ## Estructura del Proyecto
 ```
 parcial-1-distribuidos-202127352/
-├── src/                    # Código fuente
-│   ├── client/            # Código del cliente
-│   ├── server/            # Código del servidor
-│   └── shared/            # Código compartido
-├── docs/                  # Documentación
-├── config/                # Archivos de configuración
-├── tests/                 # Pruebas unitarias e integración
-├── scripts/               # Scripts de despliegue y utilidades
-├── docker/                # Archivos Docker (si aplica)
-├── README.md
-└── .gitignore
+├── punto-1
+│   ├── comandos-docker.txt
+│   ├── Dockerfile
+│   ├── file.txt
+│   └── images
+│       ├── Screenshot 2025-09-03 at 6.18.02 PM.png
+│       ├── Screenshot 2025-09-03 at 6.18.11 PM.png
+│       ├── Screenshot 2025-09-03 at 6.18.17 PM.png
+│       └── Screenshot 2025-09-03 at 6.27.06 PM.png
+├── punto-2
+│   ├── docker-commands.txt
+│   └── images
+│       ├── Screenshot 2025-09-03 at 6.35.56 PM.png
+│       ├── Screenshot 2025-09-03 at 6.36.10 PM.png
+│       ├── Screenshot 2025-09-03 at 6.36.37 PM.png
+│       ├── Screenshot 2025-09-03 at 6.39.08 PM.png
+│       ├── Screenshot 2025-09-03 at 6.39.18 PM.png
+│       ├── Screenshot 2025-09-03 at 6.39.35 PM.png
+│       ├── Screenshot 2025-09-03 at 6.39.51 PM.png
+│       └── Screenshot 2025-09-03 at 6.39.58 PM.png
+├── punto-3
+│   ├── docker-commands.txt
+│   ├── images
+│   │   ├── Screenshot 2025-09-03 at 7.11.32 PM.png
+│   │   ├── Screenshot 2025-09-03 at 7.13.52 PM.png
+│   │   └── Screenshot 2025-09-03 at 7.18.27 PM.png
+│   └── index.html
+├── punto-4
+├── punto-5
+│   ├── Dockerfile
+│   ├── images
+│   │   ├── Screenshot 2025-09-03 at 7.03.41 PM.png
+│   │   ├── Screenshot 2025-09-03 at 7.05.47 PM.png
+│   │   ├── Screenshot 2025-09-03 at 7.06.00 PM.png
+│   │   └── Screenshot 2025-09-03 at 7.06.25 PM.png
+│   ├── index.html
+│   └── web
+└── README.md
 ```
 
-## Instalación y Configuración
 
-### Requisitos Previos
-- [ ] Requisito 1
-- [ ] Requisito 2
-- [ ] Requisito 3
+### Punto 1
+1. Evidencia:
+Puede ver el dockerfile con 5 pasos y la evidencia de comandos:
 
-### Instalación
-```bash
-# Paso 1: Clonar el repositorio
-git clone [URL_DEL_REPOSITORIO]
-cd parcial-1-distribuidos-202127352
 
-# Paso 2: Instalar dependencias
-# [Comandos específicos según la tecnología]
+![1](punto-1/images/Screenshot 2025-09-03 at 6.18.02 PM.png)
+![2](punto-1/images/Screenshot 2025-09-03 at 6.18.11 PM.png)
+![3](punto-1/images/Screenshot 2025-09-03 at 6.18.17 PM.png)
+![4](punto-1/images/Screenshot 2025-09-03 at 6.27.06 PM.png)
 
-# Paso 3: Configuración
-# [Pasos de configuración necesarios]
-```
+### Punto 2
+1. Evidencia:
+Puede ver el dockerfile con 5 pasos y la evidencia de comandos:
 
-## Ejecución
+![1](punto-2/images/Screenshot 2025-09-03 at 6.35.56 PM.png)
+![2](punto-2/images/Screenshot 2025-09-03 at 6.36.10 PM.png)
+![3](punto-2/images/Screenshot 2025-09-03 at 6.36.37 PM.png)
+![4](punto-2/images/Screenshot 2025-09-03 at 6.39.08 PM.png)
+![5](punto-2/images/Screenshot 2025-09-03 at 6.39.18 PM.png)
+![6](punto-2/images/Screenshot 2025-09-03 at 6.39.35 PM.png)
+![7](punto-2/images/Screenshot 2025-09-03 at 6.39.51 PM.png)
+![8](punto-2/images/Screenshot 2025-09-03 at 6.39.58 PM.png)
 
-### Servidor
-```bash
-# Comandos para ejecutar el servidor
-```
+### Punto 3
+1. Evidencia:
+Puede ver el dockerfile con 5 pasos y la evidencia de comandos:
 
-### Cliente
-```bash
-# Comandos para ejecutar el cliente
-```
+![1](punto-3/images/Screenshot 2025-09-03 at 7.11.32 PM.png)
+![2](punto-3/images/Screenshot 2025-09-03 at 7.13.52 PM.png)
+![3](punto-3/images/Screenshot 2025-09-03 at 7.18.27 PM.png)
 
-## Funcionalidades Implementadas
-- [ ] Funcionalidad 1
-- [ ] Funcionalidad 2
-- [ ] Funcionalidad 3
-- [ ] Comunicación entre componentes
-- [ ] Manejo de concurrencia
-- [ ] Manejo de errores
-- [ ] Logging/Monitoreo
+### Punto 4
+1. Evidencia:
+Puede ver el dockerfile con 5 pasos y la evidencia de comandos:
 
-## Pruebas
-```bash
-# Comandos para ejecutar las pruebas
-```
+### Punto 5
+1. Evidencia:
+Puede ver el dockerfile con 5 pasos y la evidencia de comandos:
+![](punto-5/images/Screenshot 2025-09-03 at 7.03.41 PM.png)
+![](punto-5/images/Screenshot 2025-09-03 at 7.05.47 PM.png)
+![](punto-5/images/Screenshot 2025-09-03 at 7.06.00 PM.png)
+![](punto-5/images/Screenshot 2025-09-03 at 7.06.25 PM.png)
 
-### Casos de Prueba
-1. **Prueba de conectividad:** 
-2. **Prueba de concurrencia:** 
-3. **Prueba de fallas:** 
-4. **Prueba de rendimiento:** 
 
-## Problemas Conocidos y Limitaciones
-- [ ] Problema 1
-- [ ] Problema 2
-- [ ] Limitación 1
 
-## Decisiones de Diseño
-### Comunicación
-- **Protocolo elegido:** 
-- **Justificación:** 
 
-### Concurrencia
-- **Estrategia utilizada:** 
-- **Justificación:** 
 
-### Manejo de Estados
-- **Estrategia utilizada:** 
-- **Justificación:** 
 
-## Documentación Técnica
-- [Documentación de API](docs/api.md)
-- [Diagramas de Secuencia](docs/sequence-diagrams.md)
-- [Manual de Usuario](docs/user-manual.md)
 
-## Logs y Monitoreo
-<!-- Información sobre logging y monitoreo implementado -->
 
-## Referencias
-- Material de clase
-- Documentación oficial de tecnologías utilizadas
-- Papers/artículos consultados
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 **Fecha de Entrega:** [FECHA]  
