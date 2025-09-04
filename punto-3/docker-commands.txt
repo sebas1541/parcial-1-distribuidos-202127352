@@ -1,4 +1,4 @@
-mkdir web && echo '<html><body><h1>Sebastian Canon Castellanos 202127352!</h1></body></html>' > index.html
-docker run --ro -d --name nginx-bind -p 8080:80 -v $(pwd):/usr/share/nginx/html:ro nginx:alpine  
+echo '<h1>Sebastian Canon Castellanos 202127352!</h1>' > index.html
+docker run -d --name nginx-bind -p 8080:80 -v $(pwd):/usr/share/nginx/html:ro nginx:alpine
 curl http://localhost:8080  
 docker stop nginx-bind
